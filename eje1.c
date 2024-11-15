@@ -17,4 +17,5 @@ int main(void){
 
   printf("Random string: %s\n",buffer);
    free(buffer);
-  
+}
+
