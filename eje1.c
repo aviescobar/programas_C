@@ -13,4 +13,7 @@ int main(void){
    for(n=0;n<i;n++)
    buffer[n]=rand()%26+'a';
    buffer[i]='\0';
+
+
+  printf("Random string: %s\n",buffer);
   
