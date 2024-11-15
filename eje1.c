@@ -9,4 +9,5 @@ int main(void){
   scanf("%d", &i);
 
    buffer=(char*)malloc((i+1)*sizeof(char));
+   if(buffer==NULL)exit(1);
   
