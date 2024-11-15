@@ -7,4 +7,6 @@ int main(void){
 
  printf("Teclea la longitud de la cadena");
   scanf("%d", &i);
+
+   buffer=(char*)malloc((i+1)*sizeof(char));
   
