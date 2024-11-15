@@ -3,3 +3,4 @@
 
 int main(void){
   int i,n;
+   char*buffer;
