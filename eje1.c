@@ -10,4 +10,5 @@ int main(void){
 
    buffer=(char*)malloc((i+1)*sizeof(char));
    if(buffer==NULL)exit(1);
+   for(n=0;n<i;n++)
   
