@@ -12,4 +12,5 @@ int main(void){
    if(buffer==NULL)exit(1);
    for(n=0;n<i;n++)
    buffer[n]=rand()%26+'a';
+   buffer[i]='\0';
   
