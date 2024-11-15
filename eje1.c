@@ -6,4 +6,5 @@ int main(void){
    char*buffer;
 
  printf("Teclea la longitud de la cadena");
+  scanf("%d", &i);
   
